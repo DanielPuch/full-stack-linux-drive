@@ -53,15 +53,27 @@ This is just a quick launcher. It has a blue S logo at the top of your screen. R
 
 ### ScudCloud
 
-Slack, for Linux!
+Slack, for Linux. This is app is not currently installed, so you get to install it yourself! First, let's make sure that everything is up to date by running: `sudo apt-get update && sudo apt-get upgrade`
+
+Next, we run the commands to install the app:
+
+ ```
+ sudo apt-add-repository -y ppa:rael-gc/scudcloud
+ echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+ sudo apt-get update
+ sudo apt-get install scudcloud
+ ```
+ And just like that, ScudCloud should be installed for you.
+
+ >Note: `apt` is a popular package manger for linux is many apps can be installed using the `apt-get install` command.
 
 ### CompizConfig
 
-This is an advanced settings manager for linux. I like to use this for window management myslef (`ctrl + alt + RightArrow` to snap my current window to the right half of the screen or a quarter of the screen for example). If you would like to use this (and the settings I just mentioned) you will need to do the following:
+This is an advanced settings manager for linux. I like to use this for window management myself (`ctrl + alt + RightArrow` to snap my current window to the right half of the screen or a quarter of the screen for example). If you would like to use this (and the settings I just mentioned) you will need to do the following:
  - Go to Systems > Preferences > Look & Feel > Mate Tweek
  - Select Windows on the left and then find the dropdown for Window Manger and select Compiz instead of Macro.
  - Open Compiz, use the Filter to search for 'Grid' and set your key bindings for whatever you like.
 
 ### Parcellite
 
-This app stores your clipboard history and makes it really easy to paste anything from your history. Take a look at the settings and you can customize your keybindings for it. 
+This app stores your clipboard history and makes it really easy to paste anything from your history. Take a look at the settings and you can customize your keybindings for it.
