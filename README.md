@@ -67,6 +67,8 @@ Next, we run the commands to install the app:
 
  >Note: `apt` is a popular package manger for linux is many apps can be installed using the `apt-get install` command.
 
+For more information on ScudCloud, you can check out their github: https://github.com/raelgc/scudcloud
+
 ### CompizConfig
 
 This is an advanced settings manager for linux. I like to use this for window management myself (`ctrl + alt + RightArrow` to snap my current window to the right half of the screen or a quarter of the screen for example). If you would like to use this (and the settings I just mentioned) you will need to do the following:
