@@ -2,13 +2,13 @@
 
 ## Booting with the USB
 
-The USB drive we're supplying has a full bootable version of the Linux operating system. The version we are using on this drive is a customized version of Ubuntu. This drive is set up so that you can boot up your computer to run Linux right off of this drive without having to change your current operating system. This drive will not modify your current Windows or Mac installation. We've already set up the dev environment (rvm, ruby, rails, etc...) so you should be all set to start devloping in a native environment.
+The USB drive we're supplying has a full bootable version of the Linux operating system. The version we are using on this drive is a customized version of Ubuntu. This drive is set up so that you can boot up your computer to run Linux right off of this drive without having to change your current operating system. This drive will not modify your current Windows or Mac installation. We've already set up the dev environment (rvm, ruby, rails, etc...) so you should be all set to start developing in a native environment.
 
 First off, shut your computer down and plug in the USB drive. Now we're going to tell the computer to boot from the USB rather than the hard drive.
 
 ### If you're using a PC
 
-Every computer is a little different in terms of what needs to be done to be able to boot up using something other than your hard drive. When your computer starts up, you usually get a black screen and for just a second and it will say something like `Press F12 to Choose Boot Device`. This is exactly what we want you to look out for. It sometime pops up quick so you may need to restart your computer to try and see it a second time. Once you find out what you have to press, you're going to want to press that key on start up and navigate through the menus to boot from your USB drive. If your windows desktop/login comes up, you did not trigger the boot device selection and you'll have to restart and try again.
+Every computer is a little different in terms of what needs to be done to be able to boot up using something other than your hard drive. The goal here is to enter what is called the BIOS and change your boot order to boot from the USB drive. When your computer starts up, you usually get a black screen and for just a second and it will say something like `Press F12 to Choose Boot Device`. This is exactly what we want you to look out for. It sometime pops up quick so you may need to restart your computer to try and see it a second time. Once you find out what you have to press, you're going to want to press that key on start up and navigate through the menus to boot from your USB drive. If your windows desktop/login comes up, you did not trigger the boot device selection and you'll have to restart and try again.
 
 If you don't see an option to choose your boot device, you can look for options to enter the BIOS. If you enter the BIOS, look through the settings for "Boot Device" or "Boot Order" (or something along those lines, again, every computer is different). In these menus you can select what order your computer checks to boot from. Use the Boot Order menu to set 'booting from a USB' _above_ 'booting from the HDD' (or Hard Drive). What this is telling your computer is to simply check to see if there is a bootable USB in a port before booting the operating system from the hard drive.
 
@@ -26,7 +26,7 @@ If none of the above works, we'll first fall back to our old friend Google and s
 
 First thing you'll need to do is login. We've already created an account for you and the default password is `learnlovecode`. Once you log in, you'll want to set up SSH with Github and get you're Learn app working.
 
-If you've never used linux before and you'd like to learn a bit more before you get started, take a look at the Welcome app. You can get to it by going to the bar at the top of the screen, selecting System > Welcome.
+If you've never used linux before and you'd like to learn a bit more before you get started, take a look at the Welcome app. You can get to it by going to the bar at the top of the screen, selecting `System > Welcome`.
 
 ### Get connected to GitHub
 
