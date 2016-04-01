@@ -41,7 +41,7 @@ If you've never used linux before and you'd like to learn a bit more before you 
 
 ### Set up your Learn app
 
- - Open the terminal (the little black box on the bar at the top of the screen) and make sure your learn gem is up to date with `gem update lean-co`. 
+ - Open the terminal (the little black box on the bar at the top of the screen) and make sure your learn gem is up to date with `gem update learn-co`. 
  - Once this is done, type the command `learn whoami` to set up learn. This will ask you for the auth token at the bottom of your Learn profile. Paste it in, and you should be all set.
 
 ## Some pre-installed apps for you
