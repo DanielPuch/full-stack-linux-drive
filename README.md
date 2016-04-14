@@ -70,6 +70,15 @@ Next, we run the commands to install the app:
 
 For more information on ScudCloud, you can check out their github: https://github.com/raelgc/scudcloud
 
+### Slack for Linux (Beta)
+
+You can try the official beta client, but keep in mind that it is still in the works. There are binary packages for Ubuntu and Fedora that can be found here: http://skillcrush.com/2015/04/09/land-junior-web-developer-job/
+
+Download the 64-bit version for Ubuntu, `cd ~/Downloads` and run:
+```
+sudo dpkg -i slack-desktop-*.deb
+```
+
 ### CompizConfig
 
 This is an advanced settings manager for linux. I like to use this for window management myself (`ctrl + alt + RightArrow` to snap my current window to the right half of the screen or a quarter of the screen for example). If you would like to use this (and the settings I just mentioned) you will need to do the following:
