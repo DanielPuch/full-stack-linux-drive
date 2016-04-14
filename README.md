@@ -72,7 +72,7 @@ For more information on ScudCloud, you can check out their github: https://githu
 
 ### Slack for Linux (Beta)
 
-You can try the official beta client, but keep in mind that it is still in the works. There are binary packages for Ubuntu and Fedora that can be found here: http://skillcrush.com/2015/04/09/land-junior-web-developer-job/
+You can try the official beta client, but keep in mind that it is still in the works. There are binary packages for Ubuntu and Fedora that can be found here: https://slack.com/downloads
 
 Download the 64-bit version for Ubuntu, `cd ~/Downloads` and run:
 ```
