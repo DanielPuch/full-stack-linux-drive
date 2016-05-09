@@ -28,6 +28,8 @@ First thing you'll need to do is login. We've already created an account for you
 
 If you've never used linux before and you'd like to learn a bit more before you get started, take a look at the Welcome app. You can get to it by going to the bar at the top of the screen, selecting `System > Welcome`.
 
+**Important Note: When you want to shutdown your bootable Linux USB go to the top menu bar and select System > Shutdown (or some other software tool), but do not use your computer's power button.**
+
 ### Get connected to GitHub
 
  - Type the following into your terminal: `ssh-keygen`
@@ -41,7 +43,7 @@ If you've never used linux before and you'd like to learn a bit more before you 
 
 ### Set up your Learn app
 
- - Open the terminal (the little black box on the bar at the top of the screen) and make sure your learn gem is up to date with `gem update learn-co`. 
+ - Open the terminal (the little black box on the bar at the top of the screen) and make sure your learn gem is up to date with `gem update learn-co`.
  - Once this is done, type the command `learn whoami` to set up learn. This will ask you for the auth token at the bottom of your Learn profile. Paste it in, and you should be all set.
 
 ## Some pre-installed apps for you
